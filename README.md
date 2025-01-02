@@ -558,8 +558,8 @@ Feel free to explore, share, and connect! Let's transform data into decisions th
 ### **🌟 Connect with Me**
 - **📞 +234-8065060691**
 - **📧 Email: Olumide Balogun**
-- **🔗 LinkedIn**: [Welcome!](https://www.linkedin.com/in/olumide-balogun1/)
-- **🔗 Medium**: [Love You!](https://medium.com/@Olumide-Balogun)
+- **🔗 LinkedIn**: [Connect with me on LinkedIn 🚀](https://www.linkedin.com/in/olumide-balogun1/)
+- **🔗 Medium**: [Check out my Medium articles 🚀](https://medium.com/@Olumide-Balogun)
 
 
 
