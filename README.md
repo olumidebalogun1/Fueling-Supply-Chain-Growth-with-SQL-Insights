@@ -1,11 +1,11 @@
 # **📊 STRATEGIC GROWTH IN SUPPLY CHAIN OPERATIONS WITH SQL ANALYTICS** 
 
-## **🚀 Introduction**
+## **Introduction**
 Welcome to the Strategic Growth in Supply Chain Operations with SQL Analytics Project! This comprehensive analysis dives deep into critical business performance metrics, market dynamics, and customer behaviours. The goal is to uncover actionable insights that drive growth, optimize resources, and enhance decision-making. Whether you're a business strategist, data enthusiast, or just curious, this README will guide you through the purpose, tools, methodology, and key takeaways from this project.
 
 🔍 SQL queries? Check them out here: [Project_sql_folder]( https://github.com/olumidebalogun1/Strategic-Growth-in-Supply-Chain-Operations-with-SQL-Analytics/tree/main/3.%20project_sql)
 
-## **📖 Background and Business Challenge**
+## **Background and Business Challenge**
 In today’s competitive business landscape, **understanding performance trends, market dynamics, and customer behaviour** is crucial for **sustainable growth**. While the company has experienced increasing **sales, profits, and order volumes**, leadership is concerned about **hidden inefficiencies and inconsistencies** that could threaten long-term success. Growth appears **uneven and potentially unsustainable**, with fluctuations across key business dimensions, including:
 
 -	 **Revenue Performance**: Yearly and monthly inconsistencies in **sales, profit, and order volume** may signal volatility.
@@ -440,12 +440,12 @@ Which customer types are driving the highest revenue and profit, and how can we 
 ![4  Customer Type Performance Analysis](https://github.com/user-attachments/assets/bcb970ac-66f9-4c3e-8293-57470adae9fd)
 
 ### **🔎 Key Insights**             
-1. ✅ **Performance Analysis by Customer Type**:
+1. **Performance Analysis by Customer Type**:
 -  ** Brick and Mortar dominates in revenue and absolute profit** but operates at thinner margins. High operational costs (e.g., rent, inventory, logistics) could be reducing profitability.
 -  **E-Commerce has the highest profit margin**. Lower operational costs, digital efficiencies, and direct-to-consumer sales likely drive this.
 -  **Click and Mortar has a strong sales volume and maintains a stable profit margin**—suggesting that an omnichannel approach is effective.
 
-2. ⚠️ **Potential Areas of Concern**:
+2. **Potential Areas of Concern**:
 -  **Brick and Mortar may face profitability challenges** if costs increase, given its already low margins.
 -  **E-Commerce has growth potential but needs higher sales volume** to match the absolute profit of the other segments.
 -	**Click and Mortar needs further analysis** to determine whether it should lean more toward physical or digital expansion.
@@ -716,9 +716,11 @@ Who are the high-value customers driving both sales revenue and volume, and how 
 - **Total Sales Amount**: $26.17 Million	
 - **Total Sales Qty (unit)**: 40.05 K	
 
-### **📊 Query Result Visualization**
-![7  Customer Segmentation](https://github.com/user-attachments/assets/57b0e4f4-2e04-40de-b9df-0e8232d7e656)
+### **📊 Query Result Visualizations** - **HIGH-VALUE CUSTOMERS (The Big Spenders & Movers)**
 
+![1  New](https://github.com/user-attachments/assets/e9d28183-c50c-4f37-881a-ad2b9bd41904)
+
+![1  new](https://github.com/user-attachments/assets/d3706976-fa7d-49ed-98e0-f239b40f98e1)
 
 ### **🔎 Key Insights**
 **I.  CUSTOMER REVENUE AND VOLUME CONTRIBUTION TRENDS**
@@ -778,7 +780,7 @@ Who are the high-value customers driving both sales revenue and volume, and how 
 -  If no growth potential, optimize resources elsewhere.
 
 
-## **Overall Estimated Business Impact**
+## **Key Expected Outcomes and Estimated Business Impact**
 1. **Stabilizing Revenue Growth (+10% to +20%)**
 -  Improving demand forecasting and optimizing sales strategies can reduce revenue fluctuations.
 -  Sustainable demand expansion ensures that growth isn’t just driven by promotions but by real market demand.
@@ -814,22 +816,22 @@ Who are the high-value customers driving both sales revenue and volume, and how 
 -  E-commerce investments drive higher-margin sales and customer acquisition.
 
 
-## **🧠 What I Learned**
+## **What I Learned**
 Through this analysis, I gained:
 1.	A deeper understanding of key business performance metrics.
 2.	Insights into how market dynamics influence sales and profitability.
 3.	Hands-on experience with advanced analytical tools and storytelling techniques.
 4.	The importance of tailoring strategies to specific markets, products, and customer types.
 
- ## **🏁 Conclusion**
+ ## **Conclusion**
 This analysis showcases the power of data-driven decision-making in identifying trends, challenges, and opportunities. By focusing on high-performing regions, products, and customer types, while addressing underperforming areas, businesses can achieve sustainable growth and long-term success.
 
- ## **💡 Closing Thought**
+ ## **Closing Thought**
 Data is the new oil, but insights are the fuel that drives business growth. As a Data Analyst, my passion lies in uncovering these insights and translating them into strategies that make a real impact. Let’s transform data into decisions and challenges into opportunities!
 
 **Feel free to explore, share, and connect**! Let's transform data into decisions that drive measurable impact.
 
-## **🌟 Connect with Me**
+## **Connect with Me**
 - **📞 +234-8065060691**
 - **📧 Email: krisbalo11@gmail.com**
 - **🔗 LinkedIn**: [Connect with me on LinkedIn](https://www.linkedin.com/in/olumide-balogun1/)
