@@ -5,7 +5,7 @@ Welcome to the Strategic Growth in Supply Chain Operations with SQL Analytics Pr
 
 🔍 SQL queries? Check them out here: [Project_sql_folder]( https://github.com/olumidebalogun1/Strategic-Growth-in-Supply-Chain-Operations-with-SQL-Analytics/tree/main/3.%20project_sql)
 
-## **Background and Business Challenge**
+## **Business Challenge**
 In today’s competitive business landscape, **understanding performance trends, market dynamics, and customer behaviour** is crucial for **sustainable growth**. While the company has experienced increasing **sales, profits, and order volumes**, leadership is concerned about **hidden inefficiencies and inconsistencies** that could threaten long-term success. Growth appears **uneven and potentially unsustainable**, with fluctuations across key business dimensions, including:
 
 -	 **Revenue Performance**: Yearly and monthly inconsistencies in **sales, profit, and order volume** may signal volatility.
