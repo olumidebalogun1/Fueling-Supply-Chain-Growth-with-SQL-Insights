@@ -1,7 +1,10 @@
-# **📊 STRATEGIC GROWTH IN SUPPLY CHAIN OPERATIONS WITH SQL ANALYTICS** 
+# **FUELING SUPPLY CHAIN GROWTH WITH SQL INSIGHTS** 
 
-## **Introduction**
-Welcome to the Strategic Growth in Supply Chain Operations with SQL Analytics Project! This comprehensive analysis dives deep into critical business performance metrics, market dynamics, and customer behaviours. The goal is to uncover actionable insights that drive growth, optimize resources, and enhance decision-making. Whether you're a business strategist, data enthusiast, or just curious, this README will guide you through the purpose, tools, methodology, and key takeaways from this project.
+## **Overview**
+**This project delivers a deep-dive analytics solution** focused on **optimizing supply chain performance** using **SQL, Exploratory Data Analysis (EDA)**, and **machine learning techniques**. By analyzing **trends, business performance metrics, market dynamics**, and **customer behavior**, the project uncovers **actionable insights** that empower **strategic decision-making**, drive **operational efficiency**, and fuel **sustainable growth**.
+Whether you're a **business strategist** aiming to streamline operations, a **data enthusiast** exploring supply chain analytics, or simply **curious** about how **SQL** can solve real-world business problems, this project offers a **practical walkthrough** of the analysis process. You'll discover how **data was extracted, cleaned, explored, and modeled** to generate insights that directly impact **profitability, resource allocation, and long-term strategy**.
+From **methodology** to **tools, techniques** to **takeaways**, this README is your guide to transforming raw data into **supply chain intelligence** that delivers tangible results.
+
 
 🔍 SQL queries? Check them out here: [Project_sql_folder]( https://github.com/olumidebalogun1/Strategic-Growth-in-Supply-Chain-Operations-with-SQL-Analytics/tree/main/3.%20project_sql)
 
@@ -10,13 +13,13 @@ In today’s competitive business landscape, **understanding performance trends,
 
 -	 **Revenue Performance**: Yearly and monthly inconsistencies in **sales, profit, and order volume** may signal volatility.
 -	 **Market Contributions**: Varying performance across **continents, countries, and states**, indicating untapped opportunities or struggling regions.
--	 **Product Profitability**: Unequal contributions of product categories to revenue and margins, highlighting inefficiencies in **pricing, demand forecasting, and portfolio management**.
+-	 **Product Profitability**: Unequal contributions of product categories to revenue and margins, highlighting inefficiencies in **pricing, demand forecasting, and portfolio   management**.
 -	 **Customer Segments**: Over-reliance on a few key customers poses a risk to **business stability and growth**.
 -	 **Operational Efficiency**: Possible **pricing inefficiencies and unexpected cost spikes** may be eroding profitability.
 
 The core challenge isn’t just identifying **where the business is growing, but why**, and uncovering **potential risks and missed opportunities** that may hinder long-term success.
 
-### **Analytical Approach & Key Business Questions**
+## **Analytical Approach & Key Business Questions**
 To address these concerns, this project will leverage SQL-driven insights to conduct a comprehensive, multi-dimensional business performance analysis to:
 1. **Assess Growth Trends**: Analyse **year-over-year (YoY) and monthly patterns** in sales, profit, and sales quantity to detect inconsistencies.
 
@@ -30,7 +33,7 @@ To address these concerns, this project will leverage SQL-driven insights to con
 
 6.  **Strategic Recommendations**: Deliver **data-driven insights** to enhance **pricing strategies, marketing efforts, and operational efficiency** for long-term growth.
 
-### **❓ Key Business Questions**
+## **Key Business Questions**
 1.  Are we maintaining consistent annual growth in sales, profit, and order volume?
 
 2.  Which continents drive the highest revenue and profit, and how can we optimize underperforming regions?
@@ -46,12 +49,12 @@ To address these concerns, this project will leverage SQL-driven insights to con
 7.  Who are our high-value customers, and how can we engage them more effectively for long-term business impact?
 
 
-## **🛠️ Tools I Used**
+## **Tools I Used**
 My analysis was driven by a robust set of tools and techniques, including:
-- **SQL 🖥️**: The backbone of my analysis, empowering me to clean and format data, conduct advanced analyses and modelling, create visualizations, and uncover critical insights. 
-- **PostgreSQL 🛢️**:The chosen database management system, ideal for handling the supply chain data.
-- **Excel 📊**: Essential for converting SQL outputs into impactful visuals.
-- **Git & GitHub 🌐**: Vital for version control, sharing my SQL scripts, and facilitating seamless collaboration and project tracking throughout the analysis process.
+- **SQL**: The backbone of my analysis, empowering me to clean and format data, conduct advanced analyses and modelling, create visualizations, and uncover critical insights. 
+- **PostgreSQL**:The chosen database management system, ideal for handling the supply chain data.
+- **Excel**: Essential for converting SQL outputs into impactful visuals.
+- **Git & GitHub**: Vital for version control, sharing my SQL scripts, and facilitating seamless collaboration and project tracking throughout the analysis process.
 
 ## **Approach, Analysis, and Technical Challenges**
 **1. Data Collection**:
@@ -69,7 +72,7 @@ My analysis was driven by a robust set of tools and techniques, including:
 This structured approach enhances data clarity and reliability, effectively addressing technical challenges and delivering actionable insights to support informed decision-making.
 
 
-## **📊 The Analysis 1 - 🧹 Data Cleaning & Formatting**
+# **The Analysis 1 - Data Cleaning & Formatting**
 Raw data is **often messy and requires proper cleaning to ensure accuracy, reliability, and efficiency**. A well-structured data cleaning process enhances **data quality, leading to better insights and informed decision-making**. Below is the structured approach I followed to clean the dataset:
 
 **1.  Removing Unnecessary Columns**
@@ -96,24 +99,22 @@ Raw data is **often messy and requires proper cleaning to ensure accuracy, relia
 🔍 Want to explore the SQL queries behind this process? Check them out here: [Clean and Format_sql](https://github.com/olumidebalogun1/Strategic-Growth-in-Supply-Chain-Operations-with-SQL-Analytics/blob/main/2.%20load_clean_sql/3.%20Clearned_Formatted_Tables.sql)
 
  
- ## **📈 The Analysis**
+ # **The Analysis 2**
 Each query in this project was designed to address specific aspects of supply chain operations. Here's the approach I used for each question:
 
 
-## **1. Annual Sales Amount, Profit, and Sales Quantity Performance with Percentage Growth**
+# **1. Annual Sales Amount, Profit, and Sales Quantity Performance with Percentage Growth**
 
-### **I. Project Overview**    
-**💡 Business Challenge**
+## **How have our annual Sales Amount, Profit, and Sales Quantity evolved over time, and are we maintaining consistent growth across these metrics**?
+
+### **Question Overview**    
+**Business Challenge**
 The company aims to evaluate its long-term financial performance by assessing the growth trajectory of its key business metrics—Sales Amount, Profit, and Sales Quantity. While overall revenue may be increasing, leadership wants to determine whether this growth is stable, accelerating, or showing signs of inconsistency. 
 
-**🎯 Project Goal**
+**Objective of the Question**
 This project focuses on analysing year-over-year (YoY) performance trends in Sales Amount, Profit, and Sales Quantity. The objective is to assess growth patterns, measure consistency, and uncover areas requiring strategic intervention. These insights will support data-driven decision-making to ensure sustainable business expansion, optimized pricing strategies, and improved operational efficiency.
 
-### **II. Key Business Question**      
-**🔍 Business Question**
-How have our annual Sales Amount, Profit, and Sales Quantity evolved over time, and are we maintaining consistent growth across these metrics?
-
-**🛠 Approach**
+**Analytical Approach**
 -	Write SQL queries to calculate YoY percentage changes in Sales Amount, Profit, and Sales Quantity.
 -	Identify trends in growth, stagnation, or decline across different years.
 -	Provide data-driven recommendations to enhance pricing strategies, optimize sales efforts, and ensure long-term business sustainability.
@@ -130,10 +131,10 @@ How have our annual Sales Amount, Profit, and Sales Quantity evolved over time, 
 3. **2023 showed a sales recovery but a profit decline**:
 - Sales Amount rebounded **(+8.58%)**, and Sales Quantity increased **(+9.27%)**, but Profit fell **(-18.7%)**.
   
-### **📊 Query Result Visualization**
+### **Query Result Visualization**
 ![1  Annual Sales_Amount, Profit, and Sales_Quantity Performance with Percentage Growt ](https://github.com/user-attachments/assets/b89e5454-90c7-486a-a23b-84e5ecbea85e)
 
-### **🔎 Key Insights**            
+## **Key Insights**            
 **I. YEAR-OVER-YEAR PERFORMANCE TRENDS**
 
 1.  **2021's exceptional growth may be unsustainable**:
@@ -155,7 +156,7 @@ How have our annual Sales Amount, Profit, and Sales Quantity evolved over time, 
 
 This indicates fluctuating margins, possibly due to pricing strategies, cost structure changes, or market shifts.
 
- ### **🎯 Strategic Recommendations**
+## **Strategic Recommendations**
 **I.  STABILIZING REVENUE GROWTH**
 
 1.  **Ensure sustainable demand expansion**:
@@ -193,20 +194,18 @@ This indicates fluctuating margins, possibly due to pricing strategies, cost str
 - Shift marketing focus toward **high-margin, high-demand products**.
 
 
-## **2. Market Continents Performance Analysis**
+# **2. Market Continents Performance Analysis**
 
-### **I. Project Overview**    
-**💡 Business Challenge**:
+## **Which continents are driving the highest revenue and profit, and how can we optimize strategies for underperforming regions**?
+
+### **Question Overview**   
+**Business Challenge**:
 The company wants to evaluate its market performance across different continents to identify regions driving the highest revenue and profit. While some regions are highly profitable, others may be underperforming, requiring strategic adjustments to optimize global success.
 
-**🎯 Project Goal**:
+**Objective of the Question**:
 This project aims to analyse sales and profit contributions by continent, identifying high-performing regions and areas needing improvement. Insights from this analysis will help the business allocate resources effectively, refine market strategies, and enhance profitability in underperforming regions.
 
-### **II. Key Business Question**      
-**🔍 Business Question**:
-Which continents are driving the highest revenue and profit, and how can we optimize strategies for underperforming regions?
-
-**🛠 Approach**:
+**Analytical Approach**:
 -   Write SQL queries to calculate total sales and profit by continent.
 -   Identify top-performing continents and underperforming regions.
 -   Conduct trend analysis to assess revenue and profit growth over time.
@@ -243,10 +242,10 @@ Which continents are driving the highest revenue and profit, and how can we opti
 - Total Sales Amount: $4.21 Million
 - Total Profit: **-$1,799.52**
 
-### **📊 Query Result Visualization**
+### **Query Result Visualization**
 ![2  Market continents performance analysis](https://github.com/user-attachments/assets/bb73e020-873a-4600-b0f1-55ff9620e22d)
     
-### **🔎 Key Insights**             
+## **Key Insights**             
 **I.  TOP-PERFORMING PRODUCT TYPES**
 
 1.	**North America is leading by a significant margin in both revenue and profit**. This continent should continue to be the primary focus for growth strategies, with an emphasis on maintaining its strong performance.
@@ -264,7 +263,7 @@ Which continents are driving the highest revenue and profit, and how can we opti
 
 6.	 **South America is the weakest performer, generating minimal revenue and incurring losses**. This market may require significant strategic changes or even re-evaluation of the business model. 
 
-### **🎯 Strategic Recommendations**
+## **Strategic Recommendations**
 **I.  MAXIMIZE GROWTH IN HIGH-PERFORMING MARKETS**
 1.	**Strengthen North America’s dominance**
 -	Invest in customer retention strategies and loyalty programs to maintain high revenue levels.
@@ -302,20 +301,18 @@ Which continents are driving the highest revenue and profit, and how can we opti
 -  Consider **regional partnerships** to reduce operational costs.
 
    
-## **3. Product Type Performance Analysis**
+# **3. Product Type Performance Analysis**
 
-### **I. Project Overview**    
-**💡 Business Challenge**:
+## **Which product types are driving the most revenue and profit, and how can we leverage this information to boost sales across other categories**?
+
+### **Question Overview**   
+**Business Challenge**:
 The company wants to evaluate the sales and profit performance of different product types to identify which categories drive the most revenue and profitability. While some products perform exceptionally well, others lag behind, limiting overall business growth. Understanding these trends is crucial for optimizing product strategy and maximizing profitability.
 
-**🎯 Project Goal**:
+**Objective of the Question**:
 This project aims to analyze sales and profit contributions by product type, identifying high-performing categories and areas needing improvement. By leveraging these insights, the company can refine its product portfolio, enhance marketing strategies, and boost overall sales and profitability.
 
-### **II. Key Business Question**     
-**🔍 Business Question**:
-Which product types are driving the most revenue and profit, and how can we leverage this information to boost sales across other categories?
-
-**🛠 Approach**:
+**Analytical Approach**:
 -	Write SQL queries to calculate total sales and profit by product type.
 -	Identify top-performing product categories and underperforming ones.
 -	Analyse historical trends to assess revenue and profit growth across product types.
@@ -330,7 +327,7 @@ Which product types are driving the most revenue and profit, and how can we leve
  -  Total Sales Amount: **$463.75 Million**
  -  Total Profit: **$9.12 Million**
 
- 2. **Distribution**
+2. **Distribution**
  -  Total Sales Amount: **$164.25 Million**
  -  Total Profit: **$3.18 Million**
 
@@ -348,18 +345,18 @@ Which product types are driving the most revenue and profit, and how can we leve
 -  Total Sales Amount: **$103.76 Million**
 -  Total Profit: **$3.17 Million**
 
- 6.   **Third-Party Brand**
- -  Total Sales Amount: **$53.72 Million**
- -  Total Profit: **$1.21 Million**
+6.   **Third-Party Brand**
+-  Total Sales Amount: **$53.72 Million**
+-  Total Profit: **$1.21 Million**
 
 7.   **Licensed Product**
 -  Total Sales Amount: **$13.34 Million**
 -  Total Profit: **$0.06 Million**
            
- ### **📊 Query Result Visualization**
+ ### **Query Result Visualization**
 ![3  Product Type Performance Analysis](https://github.com/user-attachments/assets/209bde2c-74f6-440f-953c-2bccaf2f908a) 
 
-### **🔎 Key Insights**             
+## **Key Insights**             
 **I.  TOP-PERFORMING PRODUCT TYPES**
 
 1.	*Own Brand is by far the highest performer**, driving the most revenue and profit. This product type is a key driver of success and should be scaled further to maintain growth.
@@ -378,7 +375,7 @@ Which product types are driving the most revenue and profit, and how can we leve
 
 7.	**Licensed Products are the lowest performers in both sales and profit**. A strategic re-evaluation is needed to determine whether to continue or rebrand this category to better meet market demand. 
 
-### **🎯 Strategic Recommendations**
+## **Strategic Recommendations**
 1.   **Scale High-Performing Products**: 
 -  Invest in marketing, product development, and customer loyalty for Own Brand to capitalize on its success. 
 
@@ -399,23 +396,21 @@ Which product types are driving the most revenue and profit, and how can we leve
 -    Experiment with small discounts for high-potential products 
 
 
-## **4. Customer Type Performance Analysis**
+# **4. Customer Type Performance Analysis**
 
-### **I. Project Overview**    
-**💡 Business Challenge**
+## **Which customer types are driving the highest revenue and profit, and how can we cater to their specific needs to further increase sale**s?
+
+### **Question Overview** 
+**Business Challenge**
 The company wants to identify which customer types contribute the most to revenue and profit. While overall sales may be growing, leadership needs deeper insights into customer segments to understand which groups drive the highest value. By analyzing customer performance, the business can optimize its marketing, sales strategies, and resource allocation for maximum profitability.
 
-**🎯 Project Goal**
+**Objective of the Question**
 This project aims to analyse sales and profit contributions across different customer types to identify high-value segments. The insights gained will help the business:
 -	Prioritize top-performing customer groups for targeted offers and loyalty programs.
 -	Customize marketing strategies and product offerings to enhance engagement and sales.
 -	Optimize resource allocation by focusing on the most profitable customer segments.
 
-### **II. Key Business Question**      
-**🔍 Business Question**
-Which customer types are driving the highest revenue and profit, and how can we cater to their specific needs to further increase sales?
-
-**🛠 Approach**
+**Analytical Approach**
 -	Use SQL queries to analyze sales and profit distribution across customer types.
 -	Identify high-value customers and assess their purchasing behaviors.
 -	Compare revenue and profit trends to detect opportunities for personalized engagement.
@@ -436,10 +431,10 @@ Which customer types are driving the highest revenue and profit, and how can we 
 - Total Sales Amount: **$109.96 Million**
 - Total Profit: **$3.17 Million**
 
-### **📊 Query Result Visualization**
+### **Query Result Visualization**
 ![4  Customer Type Performance Analysis](https://github.com/user-attachments/assets/bcb970ac-66f9-4c3e-8293-57470adae9fd)
 
-### **🔎 Key Insights**             
+## **Key Insights**             
 1. **Performance Analysis by Customer Type**:
 -  ** Brick and Mortar dominates in revenue and absolute profit** but operates at thinner margins. High operational costs (e.g., rent, inventory, logistics) could be reducing profitability.
 -  **E-Commerce has the highest profit margin**. Lower operational costs, digital efficiencies, and direct-to-consumer sales likely drive this.
@@ -450,7 +445,7 @@ Which customer types are driving the highest revenue and profit, and how can we 
 -  **E-Commerce has growth potential but needs higher sales volume** to match the absolute profit of the other segments.
 -	**Click and Mortar needs further analysis** to determine whether it should lean more toward physical or digital expansion.
 
-### **🎯 Strategic Recommendations**
+## **Strategic Recommendations**
 1. **Brick and Mortar (High Sales, Low Margin)**
 -  **Optimize operations**: Reduce overhead costs (rent, staffing, supply chain inefficiencies).
 -  **Increase high-margin product sales**: Introduce premium product lines or bundling strategies.
@@ -467,23 +462,21 @@ Which customer types are driving the highest revenue and profit, and how can we 
 -  **Expand product assortment**: Introduce more categories to encourage cross-selling.
 
 
-## **5. Yearly Spotlight: Top 3 Customers Driving Sales Excellence**
+# **5. Yearly Spotlight: Top 3 Customers Driving Sales Excellence**
 
-### **I. Project Overview**    
-**💡 Business Challenge**
+## **Who are the top-performing customers each year, and how can their purchasing behaviors guide our strategic decisions**?
+
+### **Question Overview**   
+**Business Challenge**
 The company seeks to identify its top-performing customers and understand their purchasing behaviours. While overall sales may be growing, leadership wants to determine which customers drive the highest revenue and how their behaviour can inform strategic decisions. 
 
-**🎯 Project Goal**
+**Objective of the Question**
 This project aims to analyse annual customer performance to identify top contributors to sales. By understanding high-value customer behaviour, the business can:
 -	Prioritize and strengthen relationships with key customers.
 -	Discover patterns in purchasing behaviour to replicate success across other segments.
 -	Develop targeted marketing and loyalty initiatives to retain and expand business with top customers.
 
-### **II. Key Business Question**      
-**🔍 Business Question**
-Who are the top-performing customers each year, and how can their purchasing behaviors guide our strategic decisions?
-
-**🛠 Approach**
+**Analytical Approach**
 -	Use SQL queries to identify top customers based on annual sales contributions.
 -	Analyse purchasing trends and behaviours of high-value customers.
 -	Compare customer retention rates and assess loyalty program effectiveness.
@@ -536,10 +529,10 @@ Who are the top-performing customers each year, and how can their purchasing beh
 **3.  peak Out Mart**: $14.98 Million 
 -  Slight decline; reengage with targeted campaigns to revive their momentum.
 
-### **📊 Query Result Visualization**
+### **Query Result Visualization**
 ![5  Yearly Sportlight](https://github.com/user-attachments/assets/5eb1fdee-008e-4c87-aaf1-484cff61b390)
  
-### **🔎 Key Insights**             
+## **Key Insights**             
 1. **Top Performer**:
 -  Prime Stop Superstores leads consistently every year, contributing the majority of sales. Prioritize this customer with loyalty programs, personalized pricing, and exclusive deals. 
 
@@ -549,7 +542,7 @@ Who are the top-performing customers each year, and how can their purchasing beh
 3. **Reengagement Needed**:
 -  Excel Stores has fluctuating sales—analyse their preferences and offer tailored solutions to maintain loyalty. 
        
- ### **🎯 Strategic Recommendations**
+ ## **Strategic Recommendations**
  1. **Addressing Sales Decline**
 -  **Investigate Prime Stop Superstores' reduced sales**: Conduct customer feedback sessions to understand their shifting needs and identify competitive threats.
 -  **Re-engage Speak Out Mart and Excel Stores**: Offer personalized incentives, discounts, or loyalty programs to boost retention.
@@ -566,20 +559,18 @@ Who are the top-performing customers each year, and how can their purchasing beh
 -  **Expand Product/Service Offerings**: If certain product lines are declining in sales, introduce complementary or high-demand alternatives.
 
  
-## **6. Pareto Analysis of Customers (80/20 Rule) Based on Sales Amount**
+# **6. Pareto Analysis of Customers (80/20 Rule) Based on Sales Amount**
 
-### **I. Project Overview**  
-**💡 Business Challenge**:
+## **Who are the key customers responsible for 80% of total sales, and how can we leverage this insight to maximize business impact**?
+
+### **Question Overview** 
+**Business Challenge**:
 The company wants to identify the key customers responsible for the majority of its revenue. While the customer base is diverse, leadership seeks to understand which customers contribute the most to total sales and how to optimize strategies for retention and growth. Leveraging the Pareto Principle (80/20 Rule) will help focus efforts on high-value customers while improving overall business efficiency.
 
-**🎯 Project Goal**:
+**Objective of the Question**:
 This project aims to conduct a Pareto Analysis to identify the top 20% of customers generating 80% of total sales. By understanding these key customers, the business can develop targeted strategies to enhance customer retention, optimize resource allocation, and drive long-term profitability.
 
-### **II. Key Business Question**     
-**🔍 Business Question**:
-Who are the key customers responsible for 80% of total sales, and how can we leverage this insight to maximize business impact?
-
-**🛠 Approach**:
+**Analytical Approach**:
 -	Write SQL queries to calculate total sales per customer and determine the cumulative sales distribution.
 -	Identify the top 20% of customers contributing to 80% of revenue.
 -	Analyse purchasing patterns and customer behavior to develop targeted engagement strategies.
@@ -626,10 +617,10 @@ Who are the key customers responsible for 80% of total sales, and how can we lev
 **12.  Shop Ease**: $22.75 Million
 - Cumulative Sales: $854.03 Million (78.93%)
 
-### **📊 Query Result Visualization**
+### **Query Result Visualization**
 ![6  Pareto Analysis of Customers Based on Sales Amount](https://github.com/user-attachments/assets/16cb89b9-ebff-4b2d-8bd2-79e0c5610895)
 
-### **🔎 Key Insights**             
+## **Key Insights**             
 **I.  CUSTOMER REVENUE CONTRIBUTION TRENDS**
 1.  **The business is highly dependent on a few key customers**. The top three customers alone generate over 50% of total sales, making them the most valuable.
 
@@ -639,7 +630,7 @@ Who are the key customers responsible for 80% of total sales, and how can we lev
 
 4.   **The remaining customers (beyond the top 12) have a significantly lower impact on total sales**, suggesting that the company should focus its retention strategies on the top tier first.
 
-### **🎯 Strategic Recommendations**
+## **Strategic Recommendations**
 1.  **Strengthening Relationships with Top Customers**:
 -  **Prioritize retention strategies for the top 12 customers**. These key accounts should receive personalized offers, dedicated account management, and loyalty incentives.
 -  **Conduct direct engagement with Prime Stop Superstores**. Since it contributes over 40% of total revenue, strengthening this relationship is crucial.
@@ -656,20 +647,18 @@ Who are the key customers responsible for 80% of total sales, and how can we lev
 -  **Enhance customer service for key accounts**. Assign dedicated account managers to high-value customers to strengthen relationships.
 
 
-## **7. Customer Segmentation**
+# **7. Customer Segmentation**
 
-### **I. Project Overview**    
-**💡 Business Challenge**:
+## **Who are the high-value customers driving both sales revenue and volume, and how can we strategically engage them for maximum growth**?
+
+### **Question Overview**
+**Business Challenge**:
 The company wants to better understand its customer base by identifying high-value customers who significantly impact sales revenue and volume. While some customers contribute heavily to business performance, others may require strategic engagement to maximize their potential. Leadership seeks data-driven insights to optimize customer relationship management and drive sustainable growth.
 
-**🎯 Project Goal**:
+**Objective of the Question**:
 This project aims to segment customers into High, Medium, and Low Value categories based on sales revenue and purchase volume. By leveraging these insights, the company can prioritize high-value customers, nurture medium-value customers, and re-engage low-value customers to enhance overall sales efficiency and profitability.
 
-### **II. Key Business Question**     
-**🔍 Business Question**:
-Who are the high-value customers driving both sales revenue and volume, and how can we strategically engage them for maximum growth?
-
-**🛠 Approach**:
+**Analytical Approach**:
 -	Write SQL queries to categorize customers into High, Medium, and Low Value segments based on sales revenue and volume.
 -	Identify key characteristics and purchasing patterns of high-value customers.
 -	Develop targeted engagement strategies to retain and maximize high-value customer relationships.
@@ -716,13 +705,13 @@ Who are the high-value customers driving both sales revenue and volume, and how 
 - **Total Sales Amount**: $26.17 Million	
 - **Total Sales Qty (unit)**: 40.05 K	
 
-### **📊 Query Result Visualizations** - **HIGH-VALUE CUSTOMERS (The Big Spenders & Movers)**
+### **Query Result Visualizations** - **HIGH-VALUE CUSTOMERS (The Big Spenders & Movers)**
 
 ![1  New](https://github.com/user-attachments/assets/e9d28183-c50c-4f37-881a-ad2b9bd41904)
 
 ![1  new](https://github.com/user-attachments/assets/d3706976-fa7d-49ed-98e0-f239b40f98e1)
 
-### **🔎 Key Insights**
+## **Key Insights**
 **I.  CUSTOMER REVENUE AND VOLUME CONTRIBUTION TRENDS**
 
 1.  **High-Value customers drive the bulk of revenue**:
@@ -741,7 +730,7 @@ Who are the high-value customers driving both sales revenue and volume, and how 
 -  Many low-value customers purchase very few units (e.g., Sage Market, Cornerstone Supplies).
 -  Retaining them may require incentives, bundled pricing, or a reassessment of their long-term profitability.
 
-### **🎯 Strategic Recommendations**
+## **Strategic Recommendations**
 **I.  STRENGTHENING RELATIONSHIPS WITH HIGH-VALUE CUSTOMERS**
 
 1.  **Develop exclusive VIP programs**:
@@ -780,7 +769,7 @@ Who are the high-value customers driving both sales revenue and volume, and how 
 -  If no growth potential, optimize resources elsewhere.
 
 
-## **Key Expected Outcomes and Estimated Business Impact**
+# **Key Expected Outcomes and Estimated Business Impact**
 1. **Stabilizing Revenue Growth (+10% to +20%)**
 -  Improving demand forecasting and optimizing sales strategies can reduce revenue fluctuations.
 -  Sustainable demand expansion ensures that growth isn’t just driven by promotions but by real market demand.
@@ -829,7 +818,7 @@ This analysis showcases the power of data-driven decision-making in identifying 
  ## **Closing Thought**
 Data is the new oil, but insights are the fuel that drives business growth. As a Data Analyst, my passion lies in uncovering these insights and translating them into strategies that make a real impact. Let’s transform data into decisions and challenges into opportunities!
 
-**Feel free to explore, share, and connect**! Let's transform data into decisions that drive measurable impact.
+### **Feel free to explore, share, and connect**! Let's transform data into decisions that drive measurable impact.
 
 ## **Connect with Me**
 - **📞 +234-8065060691**
